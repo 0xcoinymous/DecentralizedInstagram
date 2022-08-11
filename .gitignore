@@ -1,0 +1,14 @@
+node_modules
+web3new.min.js
+truffle-contract.js
+fonts
+.vscode
+world.js
+strip.pkgd.min.js
+echarts.min.js
+custom.js
+bootstrap.min.js
+backgroundVideo.js
+design/src/css/emoji
+images
+

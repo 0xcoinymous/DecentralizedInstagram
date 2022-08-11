@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<title>Decentralized instagram</title>
+
+	<link rel="stylesheet" href="css/main.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/color.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/loading.css">
+
+</head>
+
+<body>
+	<div class="theme-layout">
+		<section>
+			<div class="gap gray-bg">
+				<div class="friend-name custom-bg" style="text-align: center;font-size: 25px;">
+					<i><b style="text-shadow: 2px 2px 5px red;">Designed by Abolfazl Iraninasab</b></i>
+				</div>
+				<hr>
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="row" id="page-contents">
+
+
+								<!---------------------------------------------------------------------------------------------------->
+								<div class="col-lg-3">
+									<aside class="sidebar static">
+										<div class="widget">
+											<h4 class="widget-title">Shortcuts</h4>
+											<ul class="naves">
+												<li>
+													<i class="ti-clipboard"></i>
+													<a href="newsfeed.html" title="">News feed</a>
+												</li>
+												<li>
+													<i class="ti-mouse-alt"></i>
+													<a href="inbox.html" title="">Inbox</a>
+												</li>
+												<li>
+													<i class="ti-files"></i>
+													<a href="fav-page.html" title="">My pages</a>
+												</li>
+												<li>
+													<i class="ti-user"></i>
+													<a href="timeline-friends.html" title="">friends</a>
+												</li>
+												<li>
+													<i class="ti-image"></i>
+													<a href="timeline-photos.html" title="">images</a>
+												</li>
+												<li>
+													<i class="ti-video-camera"></i>
+													<a href="timeline-videos.html" title="">videos</a>
+												</li>
+												<li>
+													<i class="ti-comments-smiley"></i>
+													<a href="messages.html" title="">Messages</a>
+												</li>
+												<li>
+													<i class="ti-bell"></i>
+													<a href="notifications.html" title="">Notifications</a>
+												</li>
+												<li>
+													<i class="ti-share"></i>
+													<a href="people-nearby.html" title="">People Nearby</a>
+												</li>
+												<li>
+													<i class="fa fa-bar-chart-o"></i>
+													<a href="insights.html" title="">insights</a>
+												</li>
+												<li>
+													<i class="ti-power-off"></i>
+													<a href="landing.html" title="">Logout</a>
+												</li>
+											</ul>
+										</div><!-- Shortcuts -->
+										<div class="widget">
+											<h4 class="widget-title">Recent Activity</h4>
+											<ul class="activitiez">
+												<li>
+													<div class="activity-meta">
+														<i>10 hours Ago</i>
+														<span><a href="#" title="">Commented on Video posted </a></span>
+														<h6>by <a href="time-line.html">black demon.</a></h6>
+													</div>
+												</li>
+												<li>
+													<div class="activity-meta">
+														<i>30 Days Ago</i>
+														<span><a href="#" title="">Posted your status. “Hello guys, how are you?”</a></span>
+													</div>
+												</li>
+												<li>
+													<div class="activity-meta">
+														<i>2 Years Ago</i>
+														<span><a href="#" title="">Share a video on her timeline.</a></span>
+														<h6>"<a href="#">you are so funny mr.been.</a>"</h6>
+													</div>
+												</li>
+											</ul>
+										</div><!-- recent activites -->
+						
+									</aside>
+								</div><!-- sidebar -->
+
+
+                                
+								<!-- --------------------------------------------------------------------------------------------->
+
+								<div class="col-lg-6">
+
+									<!-------------------------------------------------------------------------------------------->
+
+									<div class="central-meta">
+										<div class="new-postbox">
+											<div id="address">
+												CurrentAccount : <span id="Address"></span>
+											</div>
+											<!-- <figure>
+												<img src="images/resources/admin2.jpg" alt="">
+											</figure> -->
+											<div class="newpst-input">
+												<div>
+													<textarea rows="2" placeholder="write something"
+														id="description"></textarea>
+													<div class="attachments">
+														<ul>
+
+															<li>
+																<i class="fa fa-image"></i>
+																<label class="fileContainer">
+																	<input type="file" id="fileimg"
+																		onchange="previewFile()">
+																</label>
+															</li>
+
+															<li>
+																<button id="newpost"
+																	class="btn btn-primary">Post</button>
+															</li>
+														</ul>
+													</div>
+
+													<div id="showimgnft">
+
+													</div>
+
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<!-------------------------------------------------------------------------------------------->
+
+									<div id="test">
+										<!---------------------------------------------------------------------------------------->
+
+
+
+									</div>
+								</div>
+								
+								<!-- centerl meta -->
+
+								<!-- --------------------------------------------------------------------------------------------->
+								
+								<div class="col-lg-3">
+									<aside class="sidebar static">
+										<div class="widget">
+											<h4 class="widget-title">Your page</h4>	
+											<div class="your-page">
+												<figure>
+													<a href="#" title=""><img src="images/resources/friend-avatar9.jpg" alt=""></a>
+												</figure>
+												<div class="page-meta">
+													<a href="#" title="" class="underline">My page</a>
+													<span><i class="ti-comment"></i><a href="insight.html" title="">Messages <em>9</em></a></span>
+													<span><i class="ti-bell"></i><a href="insight.html" title="">Notifications <em>2</em></a></span>
+												</div>
+												<div class="page-likes">
+													<ul class="nav nav-tabs likes-btn">
+														<li class="nav-item"><a class="active" href="#link1" data-toggle="tab">likes</a></li>
+														 <li class="nav-item"><a class="" href="#link2" data-toggle="tab">views</a></li>
+													</ul>
+													<!-- Tab panes -->
+													<div class="tab-content">
+													  <div class="tab-pane active fade show " id="link1" >
+														<span><i class="ti-heart"></i>884</span>
+														  <a href="#" title="weekly-likes">35 new likes this week</a>
+														  <div class="users-thumb-list">
+															<a href="#" title="Anderw" data-toggle="tooltip">
+																<img src="images/resources/userlist-1.jpg" alt="">  
+															</a>
+															<a href="#" title="frank" data-toggle="tooltip">
+																<img src="images/resources/userlist-2.jpg" alt="">  
+															</a>
+															<a href="#" title="Sara" data-toggle="tooltip">
+																<img src="images/resources/userlist-3.jpg" alt="">  
+															</a>
+															<a href="#" title="Amy" data-toggle="tooltip">
+																<img src="images/resources/userlist-4.jpg" alt="">  
+															</a>
+															<a href="#" title="Ema" data-toggle="tooltip">
+																<img src="images/resources/userlist-5.jpg" alt="">  
+															</a>
+															<a href="#" title="Sophie" data-toggle="tooltip">
+																<img src="images/resources/userlist-6.jpg" alt="">  
+															</a>
+															<a href="#" title="Maria" data-toggle="tooltip">
+																<img src="images/resources/userlist-7.jpg" alt="">  
+															</a>  
+														  </div>
+													  </div>
+													  <div class="tab-pane fade" id="link2" >
+														  <span><i class="ti-eye"></i>440</span>
+														  <a href="#" title="weekly-likes">440 new views this week</a>
+														  <div class="users-thumb-list">
+															<a href="#" title="Anderw" data-toggle="tooltip">
+																<img src="images/resources/userlist-1.jpg" alt="">  
+															</a>
+															<a href="#" title="frank" data-toggle="tooltip">
+																<img src="images/resources/userlist-2.jpg" alt="">  
+															</a>
+															<a href="#" title="Sara" data-toggle="tooltip">
+																<img src="images/resources/userlist-3.jpg" alt="">  
+															</a>
+															<a href="#" title="Amy" data-toggle="tooltip">
+																<img src="images/resources/userlist-4.jpg" alt="">  
+															</a>
+															<a href="#" title="Ema" data-toggle="tooltip">
+																<img src="images/resources/userlist-5.jpg" alt="">  
+															</a>
+															<a href="#" title="Sophie" data-toggle="tooltip">
+																<img src="images/resources/userlist-6.jpg" alt="">  
+															</a>
+															<a href="#" title="Maria" data-toggle="tooltip">
+																<img src="images/resources/userlist-7.jpg" alt="">  
+															</a>  
+														  </div>
+													  </div>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										<!-- page like widget -->
+
+										<div class="widget">
+											<div class="banner medium-opacity bluesh">
+												<div class="bg-image" style="background-image: url(images/resources/baner-widgetbg.jpg)"></div>
+												<div class="baner-top">
+													<span><img alt="" src="images/book-icon.png"></span>
+													<i class="fa fa-ellipsis-h"></i>
+												</div>
+												<div class="banermeta">
+													<p style="text-align: center;">
+														Transfer to Owner page.
+													</p>
+													<span>Only Owner Click This</span>
+													<a data-ripple="" title="" href="#">start now!</a>
+												</div>
+											</div>											
+										</div>
+							
+									</aside>
+								</div><!-- sidebar -->
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr>
+				<br>
+				<div class="container">
+					<div class="row">
+						<img src="images/bitcoin2.png" style="border-radius: 90% ; border: 4px solid rgb(97, 16, 16);  box-shadow: 0 4px 8px 0 rgba(10, 7, 7, 0.8), 0 6px 20px 0 rgba(9, 6, 6, 0.8);" alt="">
+					</div>
+				</div>
+				<br>
+				<hr>
+				<div class="friend-name custom-bg" style="text-align: center;text-shadow: 1px 1px 2.5px rgb(95, 137, 192);">
+					The frontend of this design is inspired from <a href="http://wpkixx.com/html/winku/index2.html" target="_blank"> <i> <b> Winku Social Media Network </b> </i> </a> 
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<div id="overlay">
+		<div class="cv-spinner">
+			<span class="spinner"></span>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/web3new.min.js"></script>
+	<script src="js/truffle-contract.js"></script>
+	<script src="https://unpkg.com/@metamask/detect-provider/dist/detect-provider.min.js"></script>
+	<script src="js/ipfs-mini.js"></script>
+	<script src="js/loading.js"></script>
+	<script src="js/app.js"></script>
+</body>
+
+</html>
